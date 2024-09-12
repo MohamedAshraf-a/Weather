@@ -1,0 +1,183 @@
+html {
+    box-sizing: border-box;
+    background: #1e202b;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+body {
+    background-image: url("../img/banner.png");
+    background-clip: border-box;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+    line-height: 1;
+}
+
+/* nav style */
+.navbar {
+    background-color: #2a2d3e;
+    margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f8f9fa;
+}
+
+.navbar-nav .nav-link.disabled {
+    color: #6c757d;
+}
+
+.logo {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.logo h4,
+.logo p {
+    margin: 0;
+    color: white;
+}
+
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-nav a {
+
+    margin-left: 150px;
+
+
+}
+
+.nav-item a:hover {
+    color: rgb(50, 50, 215);
+    text-align: center;
+
+    border: 1px solid rgb(50, 50, 215);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* end  nav   style */
+
+
+
+
+/* Continar style weather */
+
+.container-site {
+    padding-top: 10px;
+}
+
+.cont {
+
+    color: #bfc1c8;
+}
+
+.a {
+    width: 400px;
+    height: 400px;
+
+ 
+    background-color: #323544;
+}
+
+.b {
+    width: 400px;
+    height: 400px;
+
+
+    background-color: #262936;
+}
+
+.stattusText {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+
+
+
+
+.rounded-corners {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.form1 {
+    margin-left: 190px;
+    ;
+    width: 100%;
+}
+
+.form-control {
+    background-color: #1E202B;
+    padding: 10px;
+}
+
+.form-control::placeholder {
+    color: #597575;
+}
+
+.btn-primary {
+    background-color: #009AD8;
+    border-color: #009AD8;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+.form-control:focus {
+    border-color: #888;
+}
+
+.btn-primary:hover {
+    background-color: #0088CC;
+}
+
+
+#footer {
+
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 100px;
+
+}
+
+.icon {
+    cursor: pointer;
+    color: #1A9AD8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 60%;
+    background-color: #272a3b;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+
+.icon:hover {
+    background-color: #4267B2;
+    color: #fff;
+}

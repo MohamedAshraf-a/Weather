@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/mian.css">
+
+    </head>
+    <body>
+
+        <!-- navbar start  -->
+
+        <nav class="navbar navbar-expand-lg  text-white ">
+            <div
+                class="container-fluid d-flex justify-content-between align-items-center p-4">
+                <!-- Logo and Toggler Button -->
+                <a href="#" class="logo d-flex">
+                    <img class="me-2" src="./img/logo.png" alt="Logo">
+                    <div>
+                        <h4>Weather</h4>
+                        <p>Tagline goes here</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white">.</span>
+                </button>
+                <!-- Navbar Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar end  -->
+
+
+        <!-- container  site start  -->
+
+        <div class="mt-5 container">
+            <div class="container-site">
+
+                <div
+                    class="d-flex  align-items-center form-control-lg form1 w-75 rounded-5 border-0   ">
+                    <input id="inputFind" type="text"
+                        class="form-control rounded-5  "
+                        placeholder="find your location...">
+                    <button id="btnFind"
+                        class="btn btn-primary ps-3 ms-2 rounded-4  ">Find</button>
+
+                </div>
+
+                <div
+                    class="  d-flex justify-content-center align-items-center mt-5 cont w-100  rounded-corners  ">
+
+                    <div class=" row rounded-corners mb-2 w-100 h-100">
+                        <div id="firstDay" class="col-md-4 a  pt-3">
+
+                        </div>
+                        <div id="secDay"
+                            class="col-md-4 b pt-3 text-center pt-4 "></div>
+                        <div id="thirdDay"
+                            class="col-md-4  pt-3 text-center a"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+                <!-- container  site end  -->
+
+
+        <!--                     footer Start   -->
+
+        <div id="footer"
+            class="bg-transparent  border-0  container text-white   ">
+            <div class="row  ">
+                <div
+                    class="border-1 container d-flex justify-content-center form-control it rounded-5 border-dark w-75 ps-5 ms-5  ">
+                    <input type="text" class="form-control rounded-5 dark-input"
+                        placeholder="Enter your Email to subscribe ...  ">
+                    <button
+                        class="btn btn-primary ps-3 ms-2 rounded-4 dark-btn">Subscribe</button>
+
+                </div>
+                <ul
+                    class="d-flex list-unstyled justify-content-center  align-items-center col">
+                    <li class=" "><i
+                            class="icon fa-brands fa-facebook-f fa-xl"></i></li>
+                    <li class=" "><i
+                            class="icon fa-brands fa-twitter fa-2xl"></i></li>
+                    <li class=" "><i
+                            class="fa-brands fa-google-plus-g fa-2xl icon"></i></li>
+                    <li class="  "><i
+                            class="fa-brands fa-pinterest fa-2xl icon"></i></li>
+                </ul>
+
+                <div class="col-4">
+
+                </div>
+
+            </div>
+
+            <div class="d-flex text-center mt-2 row text-secondary">
+                <p>&copy; 2024 Weather Website. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <!--                     footer end          -->
+
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/mian.js"></script>
+    </body>
+</html>
